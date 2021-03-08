@@ -81,18 +81,18 @@ const Farm: React.FC = () => {
           automagically harvest GRAPE rewards for you!
         </StyledInfo>
         <Spacer size="md" />
-        <StyledLink
+        {/* <StyledLink
           target="__blank"
           href={`https://sushiswap.vision/pair/${lpTokenAddress}`}
         >
           {lpTokenName} Info
-        </StyledLink>
-        <StyledLink
+        </StyledLink> */}
+        {/* <StyledLink
           target="__blank"
           href={`https://lite.sushiswap.fi/#/migrate`}
         >
-          UNI to GLP 1 Click Migration
-        </StyledLink>
+          UNI to VLP 1 Click Migration
+        </StyledLink> */}
       </StyledFarm>
     </>
   )
