@@ -45,7 +45,7 @@ const NFTCards: React.FC = () => {
             <StyledTitle>1986 Mouton</StyledTitle>
             <StyledDetails>
               <StyledDetail>Chateau Mouton Rothschild</StyledDetail>
-              <StyledDetail>1 of 1 back by original bottle.</StyledDetail>
+              <StyledDetail>1 of 1</StyledDetail>
             </StyledDetails>
             <Spacer />
             <Button
@@ -65,7 +65,7 @@ const NFTCards: React.FC = () => {
             <StyledTitle>2009 SQN</StyledTitle>
             <StyledDetails>
               <StyledDetail>This is NOT AN EXIT</StyledDetail>
-              <StyledDetail>1 of 1 back by original bottle.</StyledDetail>
+              <StyledDetail>1 of 1</StyledDetail>
             </StyledDetails>
             <Spacer />
             <Button
