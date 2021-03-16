@@ -37,6 +37,7 @@ const NFTCards: React.FC = () => {
         </CardContent>
       </Card>
       <Spacer />
+      
       <Card>
         <CardContent>
           <StyledContent>
@@ -56,6 +57,7 @@ const NFTCards: React.FC = () => {
         </CardContent>
       </Card>
       <Spacer />
+
       <Card>
         <CardContent>
           <StyledContent>
