@@ -24,7 +24,7 @@ const NFTCards: React.FC = () => {
             <CardIcon>🧙🏾‍♂️</CardIcon>
             <StyledTitle>Wizard of Soho</StyledTitle>
             <StyledDetails>
-              <StyledDetail>Original Wizard of Soho NFT</StyledDetail>
+              <StyledDetail>Original Wizard of Soho</StyledDetail>
               <StyledDetail>1 of 20</StyledDetail>
             </StyledDetails>
             <Spacer />
