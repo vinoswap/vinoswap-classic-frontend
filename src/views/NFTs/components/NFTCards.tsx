@@ -36,6 +36,42 @@ const NFTCards: React.FC = () => {
           </StyledContent>
         </CardContent>
       </Card>
+      <Card>
+        <CardContent>
+          <StyledContent>
+            <CardIcon>🍷</CardIcon>
+            <StyledTitle>1986 Mouton</StyledTitle>
+            <StyledDetails>
+              <StyledDetail>Chateau Mouton Rothschild 1986</StyledDetail>
+              <StyledDetail>1 of 1 back by original bottle.</StyledDetail>
+            </StyledDetails>
+            <Spacer />
+            <Button
+              text={'Select'}
+              href={`https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/102862428715613451915540307468475820787357031169186622357360574957879497326642`}
+            >
+            </Button>
+          </StyledContent>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardContent>
+          <StyledContent>
+            <CardIcon>🍷</CardIcon>
+            <StyledTitle>2009 Sine Qua Non</StyledTitle>
+            <StyledDetails>
+              <StyledDetail>This is NOT AN EXIT</StyledDetail>
+              <StyledDetail>1 of 1 back by original bottle.</StyledDetail>
+            </StyledDetails>
+            <Spacer />
+            <Button
+              text={'Select'}
+              href={`https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/102862428715613451915540307468475820787357031169186622357360574961178032209970`}
+            >
+            </Button>
+          </StyledContent>
+        </CardContent>
+      </Card>
     </StyledCardWrapper>
   )
 }
