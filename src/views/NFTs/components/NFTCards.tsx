@@ -30,7 +30,7 @@ const NFTCards: React.FC = () => {
             <Spacer />
             <Button
               text={'Select'}
-              to={`https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/102862428715613451915540307468475820787357031169186622357360574956779985698836`}
+              href={`https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/102862428715613451915540307468475820787357031169186622357360574956779985698836`}
             >
             </Button>
           </StyledContent>
