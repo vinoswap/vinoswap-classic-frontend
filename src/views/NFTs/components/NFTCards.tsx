@@ -18,7 +18,6 @@ const NFTCards: React.FC = () => {
 
   return (
     <StyledCardWrapper>
-      {farm.tokenSymbol === 'GRAPE' && <StyledCardAccent />}
       <Card>
         <CardContent>
           <StyledContent>
