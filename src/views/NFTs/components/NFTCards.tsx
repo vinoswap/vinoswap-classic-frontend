@@ -19,7 +19,6 @@ const NFTCards: React.FC = () => {
   return (
     <StyledWrapper>
       <Card>
-        <StyledCardAccent />
         <CardContent>
           <StyledContent>
             <CardIcon>🧙🏾‍♂️</CardIcon>
@@ -40,7 +39,6 @@ const NFTCards: React.FC = () => {
       <Spacer />
 
       <Card>
-        <StyledCardAccent />
         <CardContent>
           <StyledContent>
             <CardIcon>🍷</CardIcon>
@@ -61,13 +59,12 @@ const NFTCards: React.FC = () => {
       <Spacer />
 
       <Card>
-        <StyledCardAccent />
         <CardContent>
           <StyledContent>
             <CardIcon>🍷</CardIcon>
             <StyledTitle>2009 SQN</StyledTitle>
             <StyledDetails>
-              <StyledDetail>This is NOT AN EXIT</StyledDetail>
+              <StyledDetail>This is NOT AN EXIT by SQN</StyledDetail>
               <StyledDetail>1 of 1</StyledDetail>
             </StyledDetails>
             <Spacer />
