@@ -17,7 +17,7 @@ const NFTCards: React.FC = () => {
   const { account } = useWallet()
 
   return (
-    <StyledCardWrapper>
+    <StyledWrapper>
       <Card>
         <CardContent>
           <StyledContent>
@@ -37,7 +37,7 @@ const NFTCards: React.FC = () => {
         </CardContent>
       </Card>
       <Spacer />
-      
+
       <Card>
         <CardContent>
           <StyledContent>
@@ -76,7 +76,7 @@ const NFTCards: React.FC = () => {
           </StyledContent>
         </CardContent>
       </Card>
-    </StyledCardWrapper>
+    </StyledWrapper>
   )
 }
 
@@ -149,6 +149,15 @@ const StyledCardWrapper = styled.div`
   display: flex;
   width: calc((900px - ${(props) => props.theme.spacing[4]}px * 2) / 3);
   position: relative;
+`
+const StyledWrapper = styled.div`
+  align-items: center;
+  display: flex;
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: stretch;
+  }
 `
 
 const StyledTitle = styled.h4`
