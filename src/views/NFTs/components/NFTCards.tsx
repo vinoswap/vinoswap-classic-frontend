@@ -19,6 +19,7 @@ const NFTCards: React.FC = () => {
   return (
     <StyledWrapper>
       <Card>
+        <StyledCardAccent />
         <CardContent>
           <StyledContent>
             <CardIcon>🧙🏾‍♂️</CardIcon>
@@ -39,6 +40,7 @@ const NFTCards: React.FC = () => {
       <Spacer />
 
       <Card>
+        <StyledCardAccent />
         <CardContent>
           <StyledContent>
             <CardIcon>🍷</CardIcon>
@@ -59,12 +61,13 @@ const NFTCards: React.FC = () => {
       <Spacer />
 
       <Card>
+        <StyledCardAccent />
         <CardContent>
           <StyledContent>
             <CardIcon>🍷</CardIcon>
             <StyledTitle>2009 SQN</StyledTitle>
             <StyledDetails>
-              <StyledDetail>This is NOT AN EXIT SQN</StyledDetail>
+              <StyledDetail>This is NOT AN EXIT</StyledDetail>
               <StyledDetail>1 of 1</StyledDetail>
             </StyledDetails>
             <Spacer />
@@ -147,8 +150,11 @@ const StyledRow = styled.div`
 
 const StyledCardWrapper = styled.div`
   display: flex;
-  width: calc((900px - ${(props) => props.theme.spacing[4]}px * 2) / 3);
-  position: relative;
+  flex: 1;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `
 const StyledWrapper = styled.div`
   align-items: center;
@@ -156,7 +162,7 @@ const StyledWrapper = styled.div`
   @media (max-width: 768px) {
     width: 100%;
     flex-flow: column nowrap;
-    align-items: stretch;
+    align-items: center;
   }
 `
 
@@ -202,6 +208,23 @@ const StyledInsight = styled.div`
   border: 1px solid #e6dcd5;
   text-align: center;
   padding: 0 12px;
+`
+const StyledNFTs = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`
+const StyledCardsWrapper = styled.div`
+  display: flex;
+  width: 600px;
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 `
 
 export default NFTCards
